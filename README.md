@@ -14,6 +14,7 @@
 </ul>
 <H3>게임 시작 -> 종료 플로우차트</H3>
 ![파이프게임순서도](https://github.com/SJL0616/Pipes-Puzzule/assets/81796008/fc3f1be7-ce5e-44c2-ae82-b6f6fa1a3430)
+<img width="500" heigth="1000" src= "https://github.com/SJL0616/Pipes-Puzzule/assets/81796008/fc3f1be7-ce5e-44c2-ae82-b6f6fa1a3430">
 <H2>스택</H2>
 <ul>
   <li>JavaScript</li>
