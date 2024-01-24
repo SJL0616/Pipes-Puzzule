@@ -9,7 +9,7 @@
     </ul>
     <H3>main 화면<H3>
     <ul>
-      <li>header - 힌트 버튼/ 레벨(표시용)/ 타이머 / 다시하기 버튼  UI</li>
+      <li><p>header - 힌트 버튼/ 레벨(표시용)/ 타이머 / 다시하기 버튼  UI</p></li>
       <li>pipes section -파이프 퍼즐판  UI</li>
       <li>pipes Menu -파이프 퍼즐을 고를 수 있는 UI</li>
     </ul>
