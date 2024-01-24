@@ -13,10 +13,6 @@
       <li>pipes section -파이프 퍼즐판  UI</li>
       <li>pipes Menu -파이프 퍼즐을 고를 수 있는 UI</li>
     </ul>
-      <H3>로비<H3>
-    <ul>
-      <li>시작 ,종료 버튼</li>
-    </ul>
 </ul>
 
 <H2>스택</H2>
