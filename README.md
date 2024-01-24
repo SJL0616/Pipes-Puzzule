@@ -12,6 +12,8 @@
     <li>pipes section -파이프 퍼즐판  UI</li>
     <li>pipes Menu -파이프 퍼즐을 고를 수 있는 UI</li>
 </ul>
+<H3>게임 시작 -> 종료 플로우차트</H3>
+![Uploading 파이프게임순서도.png…]()
 
 <H2>스택</H2>
 <ul>
