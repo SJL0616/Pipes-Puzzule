@@ -15,7 +15,7 @@ https://sjl0616.github.io/Pipes-Puzzule.github.io/
 <img width="500" heigth="1000" src= "https://github.com/SJL0616/Pipes-Puzzule/assets/81796008/fc3f1be7-ce5e-44c2-ae82-b6f6fa1a3430">
 <ul>
  <li>
-  제작자 : 이상준
+  <span>제작자</span> : 이상준
  </li>
   <li>
   제작 기간 : 1주일
