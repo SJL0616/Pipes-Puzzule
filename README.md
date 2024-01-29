@@ -9,17 +9,6 @@ https://sjl0616.github.io/Pipes-Puzzule.github.io/
  <li>게임 요소별 객체화</li>
 </ul>
 
-<H2> 화면별  기능 / UI</H2>
- <H3>Lobby 화면</H3>
-     <ul>
-         <li>시작 ,종료 버튼</li>
-     </ul>
- <H3>Main 화면</H3>
-<ul>
-    <li>header - 힌트 버튼/ 레벨(표시용)/ 타이머 / 다시하기 버튼  UI</li>
-    <li>pipes section -파이프 퍼즐판  UI</li>
-    <li>pipes Menu -파이프 퍼즐을 고를 수 있는 UI</li>
-</ul>
 <H3>게임 시작 -> 종료 플로우차트</H3>
 <img width="500" heigth="1000" src= "https://github.com/SJL0616/Pipes-Puzzule/assets/81796008/fc3f1be7-ce5e-44c2-ae82-b6f6fa1a3430">
 <H2>스택</H2>
