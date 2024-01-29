@@ -18,7 +18,10 @@ https://sjl0616.github.io/Pipes-Puzzule.github.io/
   <li>CSS</li>
 </ul>
 <H2>스크립트 설명</H2>
-<H3>파이프 퍼즐이 완성됬는지 확인하는 로직</H3>
+<H3>파이프 퍼즐이 완성됬는지 확인하는 로직</H3> -findPath()  함수
+파이프 드랍 시 너비 우선 탐색 함수(BFS)를 사용해서 퍼즐이 완성되었는지 확인.
+단 한개의 파이프라인만 존재하고, 단순히 엔드 노드에 도달했는지 확인하면 되기 떄문에
+너비 우선 탐색을 bfs 사용하였음
 https://github.com/SJL0616/Pipes-Puzzule.github.io/blob/main/JS/PipeManager.js
 
 
