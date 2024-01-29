@@ -1,0 +1,347 @@
+body{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.479),rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.473)),url(../Images/lobby.png);
+    filter: drop-shadow(5px 3px 4px #141414); /*그림자*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+/* 컨테이너 */
+.container{
+    position: relative;
+    display: flex;
+    width: 50%;
+    height:550px;
+    
+    margin: 10px auto;
+
+    justify-content: center;
+    align-items: center;
+}
+/* 로비 */
+.lobby{
+    position: absolute;
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 100%;
+    width: 50%;
+
+    transition: 1.0s ease-in-out;
+}
+.lobby .title{
+    position: absolute;
+    flex:1;
+}
+.lobby #startBtn{
+   margin-top: 40%;
+   z-index: 15;
+    padding: 10px 30px;
+}
+
+.lobby.hidden{
+    transform: translateX(300%);
+}
+
+.main .pipes.hidden{
+    transform: translateX(200%);
+    visibility: hidden;
+}
+.main .header.hidden{
+    transform: translateY(-200%);
+    visibility: hidden;
+}
+
+.main .pipeMenu.hidden{
+    transform: translateY(200%);
+    visibility: hidden;
+}
+/* 메  인 */
+.main{
+    
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    
+}
+
+
+.header,
+.pipeMenu{
+    margin: 0;
+   
+}
+
+/* 메인 헤더영역 */
+
+.header{
+
+    transition: 1.0s ease-in-out;
+
+    width: 340px;
+    flex: 0.7;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.header .hints,
+.header .reset{
+    width: 80px;
+    height: 35px;
+}
+.header .reset svg{
+    filter: drop-shadow(2px 3px 2px rgb(0, 0, 0)); /*그림자*/
+}
+.header .textBox{
+    color: aliceblue;
+    position: relative;
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 5px;
+}
+.header .textBox::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+   background-image: url('../Images/lobby.png');
+   background-size: cover;
+   opacity: 0.4;
+    border-radius: 3px;
+    margin: 0 5px;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.header .home{
+    position: relative;
+    top: -12px;
+    padding: 0 15px;
+    height: 25px;
+
+
+    color: aliceblue;
+    text-shadow: 2px 3px 2px rgb(0, 0, 0);
+    background-color: rgb(255, 40, 33);
+    border: none;
+    border-radius: 3px 3px 15px 15px;
+    box-shadow:-1px -1px 0px rgba(255, 250, 250, 0.541),
+     inset 0 1.5px 1px 1px rgba(255, 67, 60, 0.788),
+     inset -2px -2px 2px 1px rgb(66, 41, 29);
+}
+
+
+.header .home:active{
+    background-color: rgb(161, 37, 33);
+    box-shadow:0px -1px 0px  rgb(94, 82, 82) ,
+     inset 0 1.5px 1px 1px rgb(97, 34, 32),
+     inset -1px -1px 1px 0.5px rgba(255, 255, 255, 0.548);
+}
+
+.level p span,
+.time p span{ 
+    font-size: 1.2em;
+    font-weight: 800;
+    display: block;
+}
+.level p,
+.time p{
+    font-size: 0.8em;
+    margin: 0;
+}
+
+/* 메인 파이프 테이블 영역 */
+.pipes{
+    transition: 1.0s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 4.5;
+}
+
+.pipes .marker{
+    z-index: 10;
+    position: absolute;
+    width: 30px;
+    height: 20px;
+}
+.pipes .marker{
+    filter: saturate(80%);
+}
+
+.marker.left{
+
+    left: -22px;
+    top: 31%;
+    
+}
+.marker.right{
+    transform: rotate(180deg);
+    right: -22px;
+    top: 31%;
+    
+}
+.marker.top{
+    transform: rotate(90deg);
+    top: -22%;
+    left:22%;
+    
+}
+.marker.bottom{
+    transform: rotate(-90deg);
+    left: 22%;
+    bottom: -32%;
+    
+}
+
+/*
+#markerEnd{
+    transform: scaleX(-1);
+    right: -22px;
+    top: 31%;
+}*/
+
+#pipeTable{
+    width: 330px;
+    height: 340px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: inset 5px 5px 2px 1px rgb(255, 216, 132),2px 3px 2px 1px rgba(85, 84, 81, 0.377);
+
+    background-image: url(../Images/panelver2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#pipeTable tr{
+    display: flex;
+}
+#pipeTable tr:first-child{
+    box-shadow: inset 0px 8px 2px 0px rgb(53, 49, 49);
+    margin-top: 10px;
+}
+#pipeTable tr:last-child{
+    margin-bottom: 10px;
+    box-shadow:0px 5px 2px 0px rgb(255, 227, 168);
+}
+
+#pipeTable td{
+    background-color: rgba(117, 66, 0, 0.445);
+}
+#pipeTable td:first-child{
+    box-shadow: inset 8px 0px 1px 0px rgba(77, 71, 71, 0.822);
+}
+#pipeTable td:last-child{
+    box-shadow:2px 0px 1px 0px rgb(255, 168, 86);
+}
+
+#pipeTable td.markerParent{
+    position: relative;
+}
+
+/*임시 data-num 보기용*/
+#pipeTable td p{
+    position: absolute;
+    font-size: 10px;
+}
+
+/* 메인 파이프 메뉴 영역 */
+.pipeMenu{
+    transition: 1.0s ease-in-out;
+    margin-top: 10px;
+    flex:1.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pipeMenuTable{
+    
+    width: 90%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#pipeMenuTable tr{
+    
+    display: flex;
+}
+
+#pipeMenuTable td{
+    margin-top: 5px;
+    margin-right: 8px;
+    border-radius: 5px;
+    background-color: rgb(250, 178, 95);
+    box-shadow:inset 1px 1px 1px 1px rgb(255, 240, 207),2px 3px 2px 1px rgba(85, 84, 81, 0.281);
+    
+}
+#pipeMenuTable td:nth-last-child(){
+    margin-right: 0;
+}
+#pipeMenuTable td.hidden{
+    visibility: hidden;
+}
+
+td img{
+    filter: drop-shadow(5px 3px 4px #141414); /*그림자*/
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+td img.hint{
+    opacity: 0.5;
+}
+
+
+/* 메인 - 모든 td의 css*/
+td{
+    
+    width: 54px;
+    height: 58px;
+    border: 1px solid rgba(0, 0, 0, 0.226);
+   
+
+}
+
+#startBtn,
+#hints,
+#reset{
+    color: aliceblue;
+    text-shadow: 2px 3px 2px rgb(0, 0, 0);
+    background-color: rgba(137, 224, 199, 0.788);
+    border: none;
+    border-radius: 5px;
+    box-shadow:0px -1px 0px rgb(255, 255, 255),
+     inset 0 1.5px 1px 1px rgba(189, 255, 235, 0.685),
+     inset -2px -2px 2px 1px rgb(81, 85, 85);
+}
+#startBtn:active,
+#hints:active,
+#reset:active{
+    background-color: rgba(84, 145, 145, 0.788);
+    box-shadow:0px -1px 0px  rgb(81, 85, 85) ,
+     inset 0 1.5px 1px 1px rgba(70, 97, 89, 0.89),
+     inset -1px -1px 1px 0.5px rgba(255, 255, 255, 0.548);
+}

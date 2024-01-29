@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer src="./JS/Player.js"></script>
+    <script defer src="./JS/Pipe.js"></script>
+    <script defer src="./JS/Node.js"></script>
+    <script defer src="./JS/PipeManager.js"></script>
+    <script defer src="./JS/game.js"></script>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <script src="https://kit.fontawesome.com/116a85af51.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="lobby">
+            <div class="title">
+                <img src="./Images/title.png">
+            </div>
+            <button id="startBtn" class="btnNormal"> Game Start</button>
+        </div>
+        <div class="main">
+            <div class="header hidden">
+                <button id="hints" class="hints">HINTS</button>
+
+                <div class="textBox">
+                    <div class="level">
+                        <p>LEVEL<span>001</span></p>
+                    </div>
+                    <button class="home">MENU</button>
+                    <div class="time">
+                        <p>CHANCE<span id="chance"></span></p>
+                    </div>
+                </div>
+
+                <button id="reset" class="reset"><i class="fa fa-repeat"></i></button>
+            </div>
+            <div class="pipes hidden">
+                <img id="markerStart" class="marker" src="Images/marker.png">
+                <img id="markerEnd" class="marker" src="Images/marker.png">
+                <table id="pipeTable" class="shadow">
+                </table>
+            </div>
+            <div class="pipeMenu hidden">
+                <table id="pipeMenuTable">
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--<img src="./Images/ㅡ.png">-->
+
+</body>
+
+</html>
