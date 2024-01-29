@@ -41,3 +41,9 @@ https://github.com/SJL0616/Pipes-Puzzule.github.io/blob/main/JS/PipeManager.js
 스타트 노드부터 주위 노드를 깊이 우선 탐색(DFS)방법으로 재귀 함수로 순회하여 모든 방향의 퍼즐 답안을 반환하는 함수
 전체 힌트를 만들때에는 모든 파이프라인을 순회하기 때문에 깊이 우선 탐색 을 사용한 재귀함수를 사용해서 모든
 정답 리스트를 만들고 그중에 램덤하게 1개를 힌트로 사용하였음.
+
+<H3>NODE / PIPE 객체</H3> <h4>Pipe.js / Node.js</h4>  <br>
+
+노드 타입과 파이프 타입별로 enum형 객체를 static으로 정의하여 객체의 생성과 수정에 용이하도록함.
+
+
