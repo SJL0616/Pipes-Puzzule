@@ -48,4 +48,5 @@ https://github.com/SJL0616/Pipes-Puzzule.github.io/blob/main/JS/PipeManager.js
 
 알고리즘 참고자료
 https://errorcode1001.tistory.com/10
-
+https://cobi-98.tistory.com/36
+https://cobi-98.tistory.com/30?category=1109491
