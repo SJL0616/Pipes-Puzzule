@@ -46,4 +46,6 @@ https://github.com/SJL0616/Pipes-Puzzule.github.io/blob/main/JS/PipeManager.js
 
 노드 타입과 파이프 타입별로 enum형 객체를 static으로 정의하여 객체의 생성과 수정에 용이하도록함.
 
+알고리즘 참고자료
+https://errorcode1001.tistory.com/10
 
