@@ -14,10 +14,23 @@ https://sjl0616.github.io/Pipes-Puzzule.github.io/
 <H3>게임 시작 -> 종료 플로우차트</H3>
 <img width="500" heigth="1000" src= "https://github.com/SJL0616/Pipes-Puzzule/assets/81796008/fc3f1be7-ce5e-44c2-ae82-b6f6fa1a3430">
 <H2>스택</H2>
+
+<H2>기타 설명</H2>
 <ul>
+ <li>
+  제작자 : 이상준
+ </li>
+  <li>
+  제작 기간 : 1주일
+ </li>
+  <li>
+  스택 :
+   <ul>
   <li>JavaScript</li>
   <li>HTML5</li>
   <li>CSS</li>
+</ul>
+ </li>
 </ul>
 <H2>스크립트 설명</H2>
 -PipeManager.js (링크)
