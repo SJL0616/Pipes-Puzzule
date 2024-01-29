@@ -17,6 +17,8 @@ https://sjl0616.github.io/Pipes-Puzzule.github.io/
   <li>HTML5</li>
   <li>CSS</li>
 </ul>
-
+<H2>스크립트 설명</H2>
+<H3>파이프 퍼즐이 완성됬는지 확인하는 로직</H3>
+https://github.com/SJL0616/Pipes-Puzzule.github.io/blob/main/JS/PipeManager.js
 
 
