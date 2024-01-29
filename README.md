@@ -1,6 +1,9 @@
 https://sjl0616.github.io/Pipes-Puzzule.github.io/
 # Pipes-Puzzule
+
+<H2> 게임 소개</H2>
 램덤으로 생성되는 파이프들을 연결해서 제한된 사용 횟수 내에서 파이프를 연결하는 게임입니다.
+
 
 <H2> 화면별  기능 / UI</H2>
  <H3>Lobby 화면</H3>
