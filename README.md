@@ -2,7 +2,7 @@ https://sjl0616.github.io/Pipes-Puzzule.github.io/
 # Pipes-Puzzule
 
 <H2> 게임 소개 및 개요</H2>
-제한된 횟수 내에서 파이프를 연결하여 파이프 퍼즐을 완성하는 게임입니다.
+제한된 횟수 내에서 파이프를 연결하여 파이프 퍼즐을 완성하는 게임입니다.<br>
 <img width="183" alt="mygameIntro" src="https://github.com/SJL0616/Pipes-Puzzule.github.io/assets/81796008/6b7c2ef3-72a0-423c-9f87-c343ac7fa91d">
 
  <H3>개발 중점 요소</H3>
